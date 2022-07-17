@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.simplecss.org/simple.min.css">
+    <title>To-do Lists</title>
+</head>
+<body>
+      <div>
+17        <h1 onclick="location.href='{% url "index" %}'">
+18            To-do Lists
+19        </h1>
+20    </div>
+21    <div>
+22        {% block content %}
+23        {% endblock %}
+25    </div>
+</body>
+</html>
